@@ -26,9 +26,9 @@ python -m unittest test_colisiones
 ## Ejemplos de Uso
 
 - Ejecutar el script: Proporciona ejemplos de cómo debe lucir la entrada y cuál será la salida esperada.
-## Entrada:
+### Entrada:
 python colisiones.py
-## Salida esperada: 
+### Salida esperada: 
 
 0 0
 1 1
@@ -36,9 +36,9 @@ python colisiones.py
 1 2 1
 
 - Ejecutar pruebas unitarias: Explica brevemente qué tipos de pruebas se están realizando.
-## Entrada:
+### Entrada:
   python -m unittest test_colisiones
-## Salida esperada:
+### Salida esperada:
 
 0 0
 1 1
@@ -55,7 +55,7 @@ Asegúrate de tener Python 3.12.4 instalado en tu sistema. No se requieren depen
 ## Errores Comunes
 Si ves errores como ModuleNotFoundError, verifica que el archivo test_colisiones.py esté en el directorio correcto y que el nombre del archivo sea correcto.
 
-### Características de la Página de Login
+## Características de la Página de Login
 
 - **Username y Password:** Campos de entrada para el nombre de usuario y la contraseña.
 - **Remember me:** Una casilla de verificación para recordar al usuario.
