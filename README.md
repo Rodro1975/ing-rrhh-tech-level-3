@@ -54,3 +54,21 @@ Asegúrate de tener Python 3.12.4 instalado en tu sistema. No se requieren depen
 
 ## Errores Comunes
 Si ves errores como ModuleNotFoundError, verifica que el archivo test_colisiones.py esté en el directorio correcto y que el nombre del archivo sea correcto.
+
+### Características de la Página de Login
+
+- **Username y Password:** Campos de entrada para el nombre de usuario y la contraseña.
+- **Remember me:** Una casilla de verificación para recordar al usuario.
+- **Forgot your password?:** Un enlace para recuperar la contraseña olvidada.
+- **Diseño Responsivo:** Utiliza CSS3 para hacer que la página sea responsiva en diferentes dispositivos.
+
+### Archivos en la Carpeta `login`
+
+- **index.html:** El archivo principal HTML que estructura la página de login.
+- **styles.css:** El archivo CSS que contiene los estilos para la página.
+- **images/**: Carpeta que contiene las imágenes necesarias para el diseño, como el logo de la compañía.
+
+### Cómo Ejecutar
+
+Para visualizar la página de login, simplemente abre `index.html` en un navegador web.
+
