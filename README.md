@@ -72,3 +72,64 @@ Si ves errores como ModuleNotFoundError, verifica que el archivo test_colisiones
 
 Para visualizar la página de login, simplemente abre `index.html` en un navegador web.
 
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+ing-rrhh-tech-level-3
+L3 technical selection test
+
+Collision Count
+This directory contains a solution to count collisions between given robots in a sequence of addresses.
+
+Problem Description
+Given a row of robots represented by the letters R (right) and L (left), this function determines how many times each robot collides under the following assumptions:
+
+The initial distance between robots is 2 meters.
+When two robots collide, they change direction instantly.
+Space is infinite in both directions.
+Execution
+To run the collisions.py script, make sure you are in the collisions directory. Use the following commands:
+
+cd collisions python collisions.py
+
+To run unit tests with unittest, make sure the test_collisions.py file is in the same directory where you are running the command from, or use the relative path. Navigate to the collisions directory and run:
+
+python -m unittest test_collisions
+
+Examples of Use
+Run the script: Provides examples of what the input should look like and what the expected output will be.
+Entrance:
+python collisions.py
+
+Expected output:
+0 0 1 1 0 0 0 1 2 1
+
+Run unit tests: Briefly explain what types of tests are being performed.
+Entrance:
+python -m unittest test_collisions
+
+Expected output:
+0 0 1 1 0 0 0 1 2 1.
+
+Ran 1 test in 0.002s
+
+OK
+
+Requirements
+Make sure you have Python 3.12.4 installed on your system. No additional dependencies required.
+
+Common Errors
+If you see errors like ModuleNotFoundError, check that the test_collisions.py file is in the correct directory and that the file name is correct.
+
+Login Page Features
+Username and Password: Entry fields for the username and password.
+Remember me: A checkbox to remember the user.
+Forgot your password?: A link to recover your forgotten password.
+Responsive Design: Use CSS3 to make the page responsive on different devices.
+Files in the login Folder
+index.html: The main HTML file that structures the login page.
+styles.css: The CSS file that contains the styles for the page.
+images/: Folder that contains the images necessary for the design, such as the company logo.
+How to Run
+To view the login page, simply open index.html in a web browser.
+
