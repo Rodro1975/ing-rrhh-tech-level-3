@@ -2,7 +2,10 @@ import unittest
 from colisiones import f
 
 class TestColisiones(unittest.TestCase):
-    
+   """
+    Test class for function `f` of module `collisions`.
+    Use the `unittest` module to define and execute test cases.
+    """ 
     def test_cases(self):
         self.assertEqual(f('LR'), '0 0')
         self.assertEqual(f('RL'), '1 1')
