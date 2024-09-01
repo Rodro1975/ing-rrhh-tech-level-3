@@ -1,3 +1,4 @@
+/* Global body style */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -8,6 +9,7 @@ body {
     margin: 0;
 }
 
+/* Style for the login form container */
 .login-container{
     background-color: white;
     padding: 20px;
@@ -17,25 +19,30 @@ body {
     text-align: center;
 }
 
+/* Style for the logo image */
 .logo{
     width: 150px;
     margin-bottom: 20px;
 }
 
+/* Style for the form title */
 .login-form h2 {
     margin-bottom: 20px;
 }
 
+/* Container for the form input fields */
 .input-container {
     margin-bottom: 15px;
     text-align: left;
 }
 
+/* Style for input field labels */
 .input-container label {
     display: block;
     margin-bottom: 5px;
 }
 
+/* Style for form input fields */
 .input-container input{
     width: 100%;
     padding: 8px;
@@ -44,11 +51,13 @@ body {
     box-sizing: border-box;
 }
 
+/* Style for the "Remember me" checkbox container */
 .checkbox-container{
     text-align: left;
     margin-bottom: 20px;
 }
 
+/* Style for the login button */
 .btn-login{
     background-color: #4caf50;
     color: white;
@@ -59,11 +68,13 @@ body {
     width: 100%;
 }
 
+/* Style for the login button on hover */
 .btn-login:hover {
     background-color: #45a049;
     font-weight: bold;
 }
 
+/* Style for the "Forgot your password?" link */
 .forgot-password{
     display: block;
     margin-top: 15px;
@@ -71,6 +82,7 @@ body {
     text-decoration: none;
 }
 
+/* Style for the "Forgot your password?" link on hover */
 .forgot-password:hover{
     text-decoration: underline;
 }
