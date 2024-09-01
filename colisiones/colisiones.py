@@ -3,12 +3,12 @@ def f(sequence: str) -> str:
     collisions = [0] * n
     robots = list(sequence)
 
-    # Simular movimientos y colisiones
+    # Simulate movements and collisions
     while True:
         changes = False
         new_robots = robots.copy()
 
-        # Detectar colisiones y cambiar direcciones
+        # Detect collisions and change directions
         for i in range(n - 1):
             if robots[i] == 'R' and robots[i + 1] == 'L':
                 collisions[i] += 1
@@ -18,13 +18,13 @@ def f(sequence: str) -> str:
 
         robots = new_robots
         
-        # Si no hay más cambios, romper el ciclo
+        # If there are no more changes, break the cycle
         if not changes:
             break
 
     return ' '.join(map(str, collisions))
 
-# Ejemplo de uso
+# Example of use
 print(f('LR'))  # Output: '0 0'
 print(f('RL'))  # Output: '1 1'
 print(f('RRR'))  # Output: '0 0 0'
