@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic metadata for the browser and search engines -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Compañía de Alimentos</title>
+    <!-- Link to external CSS file for styles -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Main container for the login form -->
    <div class="login-container">
+       <!-- Image of the company logo -->
     <img src="images/oranage.jpg" alt="Logo de Compañía de Alimentos" class="logo">
+       <!-- Login form -->
     <form action="#" method="post" class="login-form">
+        <!-- Title of the form -->
         <h2>Login</h2>
+        <!-- Container for username input field -->
         <div class="input-container">
             <label for="username">Username</label>
             <input type="text" id="username" name="username" required>
         </div>
+        <!-- Container for password input field -->
         <div class="input-container">
             <label for="password">Password</label>
             <input type="password" id="password" name="password" required>
         </div>
+        <!-- Container for the "Remember me" option -->
         <div class="checkbox-container">
             <input type="checkbox" id="remember-me" name="remember-me">
             <label for="remember-me">Remember me</label>
         </div>
+        <!-- Button to send the login form -->
         <button type="submit" class="btn-login">Login</button>
+        <!-- Link to recover password -->
         <a href="#" class="forgot-password">Forgot your password?</a>
     </form>
    </div> 
